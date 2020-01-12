@@ -1,0 +1,33 @@
+
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $color-white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default {
+  background-color: $color-accent;
+}
+
+.error {
+  background-color: #e4757a;
+}
+
+.info {
+  background-color: #927bc1;
+}
+
+.success {
+  background-color: #63cc82;
+}
+
+.warning {
+  background-color: #fd7856;
+}
+
+
