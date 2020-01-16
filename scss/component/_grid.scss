@@ -6,12 +6,6 @@
   flex-basis: 100%;
 }
 
-.row {
-  display: flex;
-  flex-direction: column;
-  padding: 1em 10px;
-}
-
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -68,9 +62,7 @@
   background-color: #80e8d1;
 }
 
-.row {
-  flex-direction: row;
-}
+
 
 [class^=col] {
   display: flex;
@@ -129,4 +121,10 @@
 
 .col-12 {
   flex-basis: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
 }
